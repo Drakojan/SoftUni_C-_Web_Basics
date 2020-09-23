@@ -4,6 +4,7 @@ using System;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
+using System.Net.WebSockets;
 
 namespace Server.Data
 {
@@ -33,6 +34,31 @@ namespace Server.Data
             }
 
             return "Successfull login";
+        }
+
+        public static string Register(SqlConnection connection, string username, string password)
+        {
+            var checkIfUsernameAlreadyExist = connection.Query<User>($"select * from Users where UserName = '{username}'").ToArray();
+            
+            if (checkIfUsernameAlreadyExist.Length != 0)
+            {
+                return "Username is not available";
+            }
+            else
+            {
+                var insertQuery = $@"INSERT INTO Users (UserName, Password) VALUES (@username,@password)";
+                var newUser = new User() { Username = username, Password = password };
+                var success = connection.Execute(insertQuery, newUser);
+
+                if (success==1)
+                {
+                    return "User successfully created";
+                }
+                else
+                {
+                    return "Unexpected error ocurred - please try again";
+                }
+            }
         }
 
     }

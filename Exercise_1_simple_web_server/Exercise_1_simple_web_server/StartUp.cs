@@ -18,6 +18,7 @@ namespace Exercise_1_simple_web_server
         {
             Console.OutputEncoding = Encoding.UTF8;
             const string NewLine = "\r\n";
+            string username, password;
 
             TcpListener tcpListener = new TcpListener(
                 IPAddress.Loopback, 80);
@@ -49,22 +50,11 @@ namespace Exercise_1_simple_web_server
 
                     if (currentPage == "login")
                     {
-                        var parametersArray = requestString.Split("\r\n\r\n")[1].Split("&");
-                        var username = parametersArray[0].Split("=")[1];
-                        var password = parametersArray[1].Split("=")[1];
-
-                        Console.WriteLine($"username = {username}, password = {password}");
+                        ParseUsernameAndPassword(requestString, out username, out password);
 
                         string htmlPost = $"<h1>{DapperDb.Login(connection, username, password)}</h1>";
 
-                        string responsePost = "HTTP/1.1 200 OK" + NewLine +
-                            "Server: NikiServer 2020" + NewLine +
-                            // "Location: https://www.google.com" + NewLine +
-                            "Content-Type: text/html; charset=utf-8" + NewLine +
-                            // "Content-Disposition: attachment; filename=niki.txt" + NewLine +
-                            "Content-Lenght: " + htmlPost.Length + NewLine +
-                            NewLine +
-                            htmlPost + NewLine;
+                        string responsePost = GenerateResponse(NewLine, htmlPost);
 
                         byte[] responseBytesPost = Encoding.UTF8.GetBytes(responsePost);
                         stream.Write(responseBytesPost);
@@ -76,16 +66,12 @@ namespace Exercise_1_simple_web_server
 
                     if (currentPage == "register")
                     {
-                        string htmlPost = $"<h1>Congratulations, you have successfully registered as new user</h1>";
 
-                        string responsePost = "HTTP/1.1 200 OK" + NewLine +
-                            "Server: NikiServer 2020" + NewLine +
-                            // "Location: https://www.google.com" + NewLine +
-                            "Content-Type: text/html; charset=utf-8" + NewLine +
-                            // "Content-Disposition: attachment; filename=niki.txt" + NewLine +
-                            "Content-Lenght: " + htmlPost.Length + NewLine +
-                            NewLine +
-                            htmlPost + NewLine;
+                        ParseUsernameAndPassword(requestString, out username, out password);
+
+                        string htmlPost = $"<h1>{DapperDb.Register(connection,username, password)}</h1>";
+
+                        string responsePost = GenerateResponse(NewLine, htmlPost);
 
                         byte[] responseBytesPost = Encoding.UTF8.GetBytes(responsePost);
                         stream.Write(responseBytesPost);
@@ -98,19 +84,12 @@ namespace Exercise_1_simple_web_server
                     string html = $"<h1>Hello from NikiServer {DateTime.Now}</h1>" +
                         $"<h3>Please login</h3>" +
                         $"<form action=/login method=post><input name=username /><input name=password />" +
-                        $"<input type=submit /></form>" +
+                        $"<input type=submit value = Login /></form>" +
                         $"<h3>Or please register if you don't have an account</h3>" +
                         $"<form action=/register method=post><input name=username /><input name=password />" +
-                        $"<input type=submit /></form>";
+                        $"<input type=submit value = 'Create User' /></form>";
 
-                    string response = "HTTP/1.1 200 OK" + NewLine +
-                        "Server: NikiServer 2020" + NewLine +
-                        // "Location: https://www.google.com" + NewLine +
-                        "Content-Type: text/html; charset=utf-8" + NewLine +
-                        // "Content-Disposition: attachment; filename=niki.txt" + NewLine +
-                        "Content-Lenght: " + html.Length + NewLine +
-                        NewLine +
-                        html + NewLine;
+                    string response = GenerateResponse(NewLine, html);
 
                     byte[] responseBytes = Encoding.UTF8.GetBytes(response);
                     stream.Write(responseBytes);
@@ -118,6 +97,27 @@ namespace Exercise_1_simple_web_server
                     Console.WriteLine(new string('=', 70));
                 }
             }
+        }
+
+        private static string GenerateResponse(string NewLine, string htmlPost)
+        {
+            string responsePost = "HTTP/1.1 200 OK" + NewLine +
+                "Server: NikiServer 2020" + NewLine +
+                // "Location: https://www.google.com" + NewLine +
+                "Content-Type: text/html; charset=utf-8" + NewLine +
+                // "Content-Disposition: attachment; filename=niki.txt" + NewLine +
+                "Content-Lenght: " + htmlPost.Length + NewLine +
+                NewLine +
+                htmlPost + NewLine;
+            return responsePost;
+        }
+
+        private static void ParseUsernameAndPassword(string requestString, out string username, out string password)
+        {
+            var parametersArray = requestString.Split("\r\n\r\n")[1].Split("&");
+            username = parametersArray[0].Split("=")[1];
+            password = parametersArray[1].Split("=")[1];
+            Console.WriteLine($"username = {username}, password = {password}");
         }
 
         public static async Task ReadData()

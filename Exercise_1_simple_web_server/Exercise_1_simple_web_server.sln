@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo_by_Niki", "Exercise_1_simple_web_server\Demo_by_Niki.csproj", "{95BE2E80-111D-4EBF-A7D6-B5E81F5B9B41}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6F4E7BD5-044C-4175-847D-F5BF09F56064} = {6F4E7BD5-044C-4175-847D-F5BF09F56064}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server.Data", "Server.Data\Server.Data.csproj", "{6F4E7BD5-044C-4175-847D-F5BF09F56064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95BE2E80-111D-4EBF-A7D6-B5E81F5B9B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BE2E80-111D-4EBF-A7D6-B5E81F5B9B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BE2E80-111D-4EBF-A7D6-B5E81F5B9B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BE2E80-111D-4EBF-A7D6-B5E81F5B9B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4E7BD5-044C-4175-847D-F5BF09F56064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4E7BD5-044C-4175-847D-F5BF09F56064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4E7BD5-044C-4175-847D-F5BF09F56064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4E7BD5-044C-4175-847D-F5BF09F56064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FFE1E72-7C67-4E41-BA28-61ED2CB8776C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.exe
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.deps.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.runtimeconfig.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.runtimeconfig.dev.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\obj\Debug\netcoreapp3.1\MultiThread_MergeSort.csprojAssemblyReference.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\obj\Debug\netcoreapp3.1\MultiThread_MergeSort.AssemblyInfoInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\obj\Debug\netcoreapp3.1\MultiThread_MergeSort.AssemblyInfo.cs
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\obj\Debug\netcoreapp3.1\MultiThread_MergeSort.csproj.CoreCompileInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\obj\Debug\netcoreapp3.1\MultiThread_MergeSort.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\obj\Debug\netcoreapp3.1\MultiThread_MergeSort.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MultiThread_MergeSort\obj\Debug\netcoreapp3.1\MultiThread_MergeSort.genruntimeconfig.cache

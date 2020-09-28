@@ -1,0 +1,13 @@
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\obj\Debug\netcoreapp3.1\SandBox.csprojAssemblyReference.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\obj\Debug\netcoreapp3.1\SandBox.AssemblyInfoInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\obj\Debug\netcoreapp3.1\SandBox.AssemblyInfo.cs
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\obj\Debug\netcoreapp3.1\SandBox.csproj.CoreCompileInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\bin\Debug\netcoreapp3.1\SandBox.exe
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\bin\Debug\netcoreapp3.1\SandBox.deps.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\bin\Debug\netcoreapp3.1\SandBox.runtimeconfig.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\bin\Debug\netcoreapp3.1\SandBox.runtimeconfig.dev.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\bin\Debug\netcoreapp3.1\SandBox.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\bin\Debug\netcoreapp3.1\SandBox.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\obj\Debug\netcoreapp3.1\SandBox.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\obj\Debug\netcoreapp3.1\SandBox.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\SandBox\obj\Debug\netcoreapp3.1\SandBox.genruntimeconfig.cache

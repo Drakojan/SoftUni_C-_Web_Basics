@@ -1,0 +1,13 @@
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\bin\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.exe
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\bin\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.deps.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\bin\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.runtimeconfig.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\bin\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.runtimeconfig.dev.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\bin\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\bin\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\obj\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.csprojAssemblyReference.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\obj\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.AssemblyInfoInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\obj\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.AssemblyInfo.cs
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\obj\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.csproj.CoreCompileInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\obj\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\obj\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\exercise_2 - Asynchronous programming\obj\Debug\netcoreapp3.1\exercise_2_Asynchronous_programming.genruntimeconfig.cache

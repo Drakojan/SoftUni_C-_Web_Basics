@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KxHjz+AdZeFFiGgRWibU9nuaxWNTJ2K7YTyQBxYl8P7Gt9M0OUEyye8iL69WSVSmHI7SFc6mooi0HtHvMgSRqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ROG STRIX\\Desktop\\New folder\\SUS.HTTP\\SUS.HTTP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ROG STRIX\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\ROG STRIX\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

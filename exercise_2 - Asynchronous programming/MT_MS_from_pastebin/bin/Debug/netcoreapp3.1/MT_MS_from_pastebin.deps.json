@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MT_MS_from_pastebin/1.0.0": {
+        "dependencies": {
+          "MultiThread_MergeSort": "1.0.0"
+        },
+        "runtime": {
+          "MT_MS_from_pastebin.dll": {}
+        }
+      },
+      "MultiThread_MergeSort/1.0.0": {
+        "runtime": {
+          "MultiThread_MergeSort.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MT_MS_from_pastebin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MultiThread_MergeSort/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

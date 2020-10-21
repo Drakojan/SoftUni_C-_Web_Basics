@@ -1,0 +1,17 @@
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.exe
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MT_MS_from_pastebin.exe
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MT_MS_from_pastebin.deps.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MT_MS_from_pastebin.runtimeconfig.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MT_MS_from_pastebin.runtimeconfig.dev.json
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MT_MS_from_pastebin.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MT_MS_from_pastebin.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\bin\Debug\netcoreapp3.1\MultiThread_MergeSort.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.csprojAssemblyReference.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.AssemblyInfoInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.AssemblyInfo.cs
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.csproj.CoreCompileInputs.cache
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.csproj.CopyComplete
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.dll
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.pdb
+C:\Users\ROG STRIX\source\repos\WEB_Basics\exercise_2 - Asynchronous programming\MT_MS_from_pastebin\obj\Debug\netcoreapp3.1\MT_MS_from_pastebin.genruntimeconfig.cache
